@@ -1,0 +1,134 @@
+{
+  "provenance": "Терминальный вывод пользователя из переписки; JSON восстановлен для сохранения измерений. Время и FPS относятся к его компьютеру.",
+  "cpu": "12th Gen Intel(R) Core(TM) i9-12900H",
+  "camera_size": [
+    640,
+    480
+  ],
+  "noise": {
+    "01.jpg": 1.24,
+    "10.jpg": 1.24,
+    "13.jpg": 1.73
+  },
+  "noise_added": [
+    {
+      "added_sigma": 5,
+      "noise_sigma_noisy": 5.68,
+      "filter_sigma": 1.6,
+      "noise_after_measured": 0.88,
+      "noise_after_predicted": 0.88
+    },
+    {
+      "added_sigma": 10,
+      "noise_sigma_noisy": 10.38,
+      "filter_sigma": 2.93,
+      "noise_after_measured": 0.97,
+      "noise_after_predicted": 0.96
+    },
+    {
+      "added_sigma": 25,
+      "noise_sigma_noisy": 23.23,
+      "filter_sigma": 3,
+      "noise_after_measured": 2.38,
+      "noise_after_predicted": 2.35
+    }
+  ],
+  "edges": [
+    {
+      "file": "01.jpg",
+      "close": 9,
+      "canny": [
+        99,
+        196
+      ],
+      "median": 148,
+      "edge_pct": 0.53,
+      "segments": 15
+    },
+    {
+      "file": "01.jpg",
+      "close": 0,
+      "canny": [
+        89,
+        178
+      ],
+      "median": 134,
+      "edge_pct": 0.59,
+      "segments": 16
+    },
+    {
+      "file": "01.jpg",
+      "close": 9,
+      "canny": [
+        50,
+        150
+      ],
+      "median": 148,
+      "edge_pct": 0.53,
+      "segments": 15
+    },
+    {
+      "file": "07.jpg",
+      "close": 9,
+      "canny": [
+        104,
+        207
+      ],
+      "median": 156,
+      "edge_pct": 0.69,
+      "segments": 16
+    },
+    {
+      "file": "07.jpg",
+      "close": 0,
+      "canny": [
+        99,
+        198
+      ],
+      "median": 149,
+      "edge_pct": 1.19,
+      "segments": 21
+    }
+  ],
+  "binarize_own": {
+    "file": "12.jpg",
+    "block": 31,
+    "C": 15,
+    "otsu": 58.65,
+    "adaptive": 13.83,
+    "flat": 13.32
+  },
+  "binarize_course": {
+    "file": "text-lamp.png",
+    "gt": "text-gt.png",
+    "otsu": 56.8,
+    "adaptive": 98.8,
+    "flat": 99.9
+  },
+  "video": [
+    {
+      "method": "contour",
+      "frames": 285,
+      "seconds": 10.01,
+      "fps": 28.5,
+      "found_pct": 0,
+      "detect_ms_median": 10.3
+    },
+    {
+      "method": "hough",
+      "frames": 285,
+      "seconds": 10.03,
+      "fps": 28.4,
+      "found_pct": 15.4,
+      "detect_ms_median": 26.2
+    },
+    {
+      "method": "auto",
+      "frames": 141,
+      "seconds": 10,
+      "fps": 14.1,
+      "found_pct": 59.6,
+      "detect_ms_median": 48
+    }
+  ]
+}

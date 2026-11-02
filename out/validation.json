@@ -1,0 +1,27 @@
+{
+  "tests": "17 passed in 1.95s",
+  "opencv": "4.14.0",
+  "numpy": "2.3.5",
+  "code_unchanged": true,
+  "docscan_sha256": "b1994e6162f7953ae6f3fa3fb7a0ba9ccf19967702093d1135dd260622fee973",
+  "own_images": 18,
+  "annotations": 18,
+  "videos": [
+    {
+      "file": "video.mp4",
+      "bytes": 1527886,
+      "decoded_frames": 141
+    },
+    {
+      "file": "video_hough.mp4",
+      "bytes": 2512926,
+      "decoded_frames": 285
+    },
+    {
+      "file": "video_contour.mp4",
+      "bytes": 2053782,
+      "decoded_frames": 285
+    }
+  ],
+  "ci": "not checked remotely"
+}

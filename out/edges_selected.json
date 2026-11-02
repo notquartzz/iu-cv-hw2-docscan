@@ -1,0 +1,121 @@
+[
+  {
+    "command_line": "python docscan.py edges data/02.jpg --canny 50,150 --close 9 --long-side 1000 -o out/02_edges_selected.png",
+    "result": {
+      "command": "edges",
+      "close": 9,
+      "noise_sigma": 0.74,
+      "filter_sigma": 1.0,
+      "median": 33.0,
+      "canny": [
+        50,
+        150
+      ],
+      "edge_pct": 0.33,
+      "segments": 15,
+      "out": "out/02_edges_selected.png"
+    }
+  },
+  {
+    "command_line": "python docscan.py edges data/05.jpg --canny 50,150 --close 9 --long-side 1000 -o out/05_edges_selected.png",
+    "result": {
+      "command": "edges",
+      "close": 9,
+      "noise_sigma": 0.99,
+      "filter_sigma": 1.0,
+      "median": 140.0,
+      "canny": [
+        50,
+        150
+      ],
+      "edge_pct": 0.56,
+      "segments": 18,
+      "out": "out/05_edges_selected.png"
+    }
+  },
+  {
+    "command_line": "python docscan.py edges data/08.jpg --canny 50,150 --close 9 --long-side 1000 -o out/08_edges_selected.png",
+    "result": {
+      "command": "edges",
+      "close": 9,
+      "noise_sigma": 2.22,
+      "filter_sigma": 1.0,
+      "median": 128.0,
+      "canny": [
+        50,
+        150
+      ],
+      "edge_pct": 2.0,
+      "segments": 33,
+      "out": "out/08_edges_selected.png"
+    }
+  },
+  {
+    "command_line": "python docscan.py edges data/09.jpg --canny 50,150 --close 9 --long-side 1000 -o out/09_edges_selected.png",
+    "result": {
+      "command": "edges",
+      "close": 9,
+      "noise_sigma": 0.99,
+      "filter_sigma": 1.0,
+      "median": 146.0,
+      "canny": [
+        50,
+        150
+      ],
+      "edge_pct": 1.56,
+      "segments": 20,
+      "out": "out/09_edges_selected.png"
+    }
+  },
+  {
+    "command_line": "python docscan.py edges data/10.jpg --canny 50,150 --close 9 --long-side 1000 -o out/10_edges_selected.png",
+    "result": {
+      "command": "edges",
+      "close": 9,
+      "noise_sigma": 0.74,
+      "filter_sigma": 1.0,
+      "median": 139.0,
+      "canny": [
+        50,
+        150
+      ],
+      "edge_pct": 0.51,
+      "segments": 15,
+      "out": "out/10_edges_selected.png"
+    }
+  },
+  {
+    "command_line": "python docscan.py edges data/14.jpg --canny 50,150 --close 9 --long-side 1000 -o out/14_edges_selected.png",
+    "result": {
+      "command": "edges",
+      "close": 9,
+      "noise_sigma": 0.74,
+      "filter_sigma": 1.0,
+      "median": 149.0,
+      "canny": [
+        50,
+        150
+      ],
+      "edge_pct": 0.64,
+      "segments": 21,
+      "out": "out/14_edges_selected.png"
+    }
+  },
+  {
+    "command_line": "python docscan.py edges data/03.jpg --canny 50,150 --close 9 --long-side 1000 -o out/03_edges_selected.png",
+    "result": {
+      "command": "edges",
+      "close": 9,
+      "noise_sigma": 0.99,
+      "filter_sigma": 1.0,
+      "median": 121.0,
+      "canny": [
+        50,
+        150
+      ],
+      "edge_pct": 0.72,
+      "segments": 21,
+      "out": "out/03_edges_selected.png"
+    }
+  }
+]
